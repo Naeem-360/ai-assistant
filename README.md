@@ -31,3 +31,6 @@ Python – Core language for building functionality and logic.
 pyttsx3 – Text-to-speech engine for voice interactions.
 pywhatkit – For playing music on YouTube.
 os & shutil – File and folder management.
+
+remenber to get both file
+
