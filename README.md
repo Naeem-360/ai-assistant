@@ -1,36 +1,36 @@
-# Voice-Powered AI Assistant
-An interactive and voice-enabled AI assistant built using Python!
-This project is designed to simplify daily tasks through voice commands and text input.
-It can play music, manage files and folders, perform calculations, read and write to text files, and much more—all while speaking back to you!
+# 🤖 AI Assistant
 
-🚀 Features
-🎶 Play Music: Say "play [song name]" to play music on YouTube.
-📂 File & Folder Management: Create folders with files inside, and delete files or folders easily.
-📊 Calories Calculator: Integrated a custom calories calculator for quick health tracking.
-📖 File Operations: Read content from text files or append new text with simple commands.
-🔊 Text-to-Speech: Uses pyttsx3 for voice responses to make interactions more engaging.
-❓ Help Section: Type "help" to see all available commands and usage details.
-🎬 Application Launcher: Open any application or file by specifying its name or path.
-🛑 Exit Anytime: Type "exit" or "quit" to close the assistant.
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Assistant](https://img.shields.io/badge/Feature-Voice%20Commands-red.svg)](https://en.wikipedia.org/wiki/Virtual_assistant)
 
+A command-line Python-based AI assistant with voice interaction, capable of playing music, managing files, opening applications, and more. Powered by `pyttsx3` for text-to-speech and `pywhatkit` for YouTube playback.
 
-🎛️ Commands Overview
-play <song name> – Plays a song on YouTube.
-open – Opens an application or file (provide the full path).
-make – Creates folders with files inside them.
-remove or delete – Deletes a specified file or folder.
-calori – Opens the calories calculator.
-read – Reads content from a specified text file.
-add – Appends text to a specified text file.
-help – Displays all available commands and how to use them.
-exit or quit – Closes the assistant.
+## ✨ Features
 
+- 🎙️ Voice responses using text-to-speech (`pyttsx3`)
+- 🎵 Plays songs on YouTube with the `play` command
+- 📂 Creates and deletes files/folders with custom content
+- 🚀 Opens applications or files by path
+- 🍎 Integrates a calorie calculator (via `calories_calculator`)
+- 📝 Reads and appends text to files
+- ❓ Built-in help menu with command list
+- 🖥️ User-friendly command-line interface
 
-🛠️ Tech Stack
-Python – Core language for building functionality and logic.
-pyttsx3 – Text-to-speech engine for voice interactions.
-pywhatkit – For playing music on YouTube.
-os & shutil – File and folder management.
+## 📋 Requirements
 
-remenber to get both file
+- Python 3.x
+- `pyttsx3` (for text-to-speech)
+- `pywhatkit` (for YouTube playback)
+- `calories_calculator` (custom module, must be in the same directory)
+- Windows OS (due to `sapi5` and `os.startfile` usage)
 
+## 🚀 Installation
+
+### Clone the Repository
+
+Clone this project from GitHub using the following commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/Naeem-360/ai-assistant.git
